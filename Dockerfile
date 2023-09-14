@@ -5,3 +5,5 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
+
+LABEL org.opencontainers.image.description A docker image with G++ preinstalled
